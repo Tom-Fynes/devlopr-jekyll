@@ -1,7 +1,6 @@
 title: The Unconventional DBA
 subtitle: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Hello! welcome to my blogs
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
@@ -10,40 +9,41 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Gallery
-      url: /gallery
+    #- text: Gallery
+      #url: /gallery
     #- text: Shop
       #url : /shop
     - text: Contact Me
       url : /contact
-    - text: Styleguide
-      url: /styleguide
-    - text: Get Started
-      url: /get-started
+    #- text: Styleguide
+      #url: /styleguide
+    #- text: Get Started
+      #url: /get-started
 
 # Edit these details
 
 author_logo: profile.png
-author: Tom Fynes
-author_bio: Hi, my name is Tom Fynes. I built this site using devlopr-jekyll :D
-author_email: "johndoe@gmail.com"
+author: Tom
+author_bio: Hello, I'm Tom and I've been a SQL server database administrator/ developer for just over two years. I was unsure about starting this blog at first as the SQL community has such great content and some immensely knowledgeable people. However if you are like me I always like to know how people arrived at the answer and not just what the answer is. Hopefully this blog will do just that and will not only help people find the answers they are looking for but also how I got there. If you are reading this thank you for taking the time to visit my site!
+author_email: "theunconventionaldba@icloud.com"
 author_location: Uk
-author_website_url: "http://johndoe.com"
-typewrite-text: Hello! welcome to my blogs
+author_website_url: 
+typewrite-text: Welcome to my blog
 
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Emis
+              company_logo: Emis.png
+              company_url: https://www.emishealth.com/
+              designation: Database Developer
+              description: 
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: The Data Shed
+              company_logo: DataShed.png
+              company_url: https://www.thedatashed.co.uk/
+              designation: Database Administrator
+              description: 
               visibility: true
+
 
 #author_education_details:
               #- college_logo: mit.png
@@ -54,25 +54,20 @@ author_work_experiences:
                 #visibility: true
 
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
-                visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_thumbnail: Proc.png
+                project_title: Alert stored proc
+                project_description: A store procedure to enable operator alerts and assign these to agent jobs or operators.
+                project_url: https://github.com/Tom-Fynes/SP_CreateAndEnableFailureAlerts
                 visibility: true
 
 # social links
-twitter_username: johndoe
+#twitter_username: johndoe
 github_username:  Tom-Fynes
-linkedin_username: johndoe
+linkedin_username: thomas-f-b00607163/
 #behance_username: johndoe
 #instagram_username: johndoe
 ##telegram_username: johndoe
-medium_username: johndoe
+#medium_username: johndoe
 #dribbble_username: johndoe
 #flickr_username: johndoe
 
@@ -85,10 +80,10 @@ hyvor_talk_website_id: 476
 wakatime_username: TomFynes
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+#mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # formspree (contact form)
-formspree_email: johndoe@gmail.com
+formspree_email: theunconventionaldba@icloud.com
 
 # syntax highlighter
 markdown: kramdown
@@ -130,8 +125,8 @@ paginate_path: "/blog/page/:num/"
 #     category: '/category/:name/'
 
 # Shop
-collections:
- - products
+#collections:
+  #- products
 
 # Gallery
 defaults:
